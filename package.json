@@ -1,0 +1,8 @@
+{
+  "name": "moosebot",
+  "author": "covey <cove.geary@yale.edu>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "covey/moosebot",
+  "timeout": 10000,
+  "connector": false,
+  "defaults": {},
+  "events": {
+    "functions/events/slack/command/a.js": {
+      "name": "slack.command",
+      "subtype": {
+        "command": "a"
+      }
+    },
+    "functions/events/slack/command/scream.js": {
+      "name": "slack.command",
+      "subtype": {
+        "command": "scream"
+      }
+    },
+    "functions/events/slack/mentions.js": {
+      "name": "slack.app_mention"
+    }
+  },
+  "env": []
+}
